@@ -1,0 +1,36 @@
+# Data collection
+playwright==1.44.0
+beautifulsoup4==4.12.3
+requests==2.32.3
+pandas==2.2.2
+lxml==5.2.2
+
+# NLP & Preprocessing
+spacy==3.7.5
+nltk==3.8.1
+emoji==2.12.1
+langdetect==1.0.9
+
+# Sentiment Analysis
+pysentimiento==0.7.3
+transformers==4.41.2
+torch==2.3.0
+
+# Topic Modeling
+bertopic==0.16.2
+sentence-transformers==3.0.1
+scikit-learn==1.5.0
+umap-learn==0.5.6
+hdbscan==0.8.38.post1
+
+# Visualization
+plotly==5.22.0
+wordcloud==1.9.3
+matplotlib==3.9.0
+seaborn==0.13.2
+kaleido==0.2.1
+
+# Notebook & Reporting
+jupyterlab==4.2.2
+nbconvert==7.16.4
+ipywidgets==8.1.3
