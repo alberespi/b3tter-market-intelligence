@@ -36,13 +36,8 @@ b3tter-market-intelligence/
 ├── README.md
 │
 ├── data/
-│   ├── raw/                        # Raw scraped data (not committed to git)
-│   │   ├── amazon_b3tter.csv
-│   │   ├── amazon_competitors.csv
-│   │   └── ...
-│   └── processed/                  # Cleaned, tokenized, labeled data
-│       ├── reviews_clean.csv
-│       └── reviews_sentiment.csv
+│   ├── raw/          # No incluido en git — ejecutar src/scraper_yotpo.py para regenerar
+│   └── processed/    # No incluido en git — generado por los notebooks de preprocessing
 │
 ├── notebooks/
 │   ├── 01_data_collection.ipynb    # Scraping pipeline (Amazon, Trustpilot)
